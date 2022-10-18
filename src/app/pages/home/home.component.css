@@ -1,0 +1,13 @@
+.container__articles{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+app-small-card:nth-child(n+2){
+  margin: 0 12px;
+}
+
+header{
+  margin: 12px;
+}

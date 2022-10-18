@@ -1,0 +1,27 @@
+.container__menu-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.container__menu-bar > div > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container__menu-bar div > ul > li{
+  font-weight: bolder;
+  margin-right: 15px;
+}
+
+.pages-content{
+  margin-left: 30px;
+}
+
+.social-medias-content{
+  margin-right: 30px;
+}
+
+
