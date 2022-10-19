@@ -9,7 +9,8 @@ export class SmallCardComponent implements OnInit {
   @Input () photoCover: string = ''
   @Input () cardTitle: string = ''
   @Input () dateCard: string = 'April 10, 2022'
-  
+  @Input () id: string = '0'
+
   constructor() { }
 
   ngOnInit(): void {

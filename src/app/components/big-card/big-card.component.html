@@ -9,7 +9,7 @@
 
   <div class="big-card__title">
     <h1>
-      <a href="" target="_blank">
+      <a [routerLink]="['content', id]">
         {{cardTitle}}
       </a>
     </h1>
@@ -17,7 +17,7 @@
 
   <div class="big-card__description">
     <p>
-      <a href="http://" target="_blank" >
+      <a [routerLink]="['content', id]">
         {{cardDescription}}
       </a>
     </p>
